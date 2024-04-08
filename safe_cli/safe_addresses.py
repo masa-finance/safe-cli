@@ -34,6 +34,7 @@ def get_safe_contract_address(ethereum_client: EthereumClient) -> ChecksumAddres
             "0x41675C099F32341bf84BFc5382aF534df5C7461a",  # v1.4.1
             "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",  # v1.3.0
             "0x69f4D1788e39c87893C980c06EdF4b7f686e2938",  # v1.3.0
+            "0xfbb924207F17156527c6e570142641b72Ca19662",  # masa
         ],
     )
 
@@ -46,6 +47,7 @@ def get_safe_l2_contract_address(ethereum_client: EthereumClient) -> ChecksumAdd
             "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",  # v1.3.0
             "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA",  # v1.3.0
             "0x1727c2c531cf966f902E5927b98490fDFb3b2b70",  # v1.3.0 zkSync
+            "0x68a524DF62184E27D3CEb42Dc25a221aC7528a8b",  # masa
         ],
     )
 
@@ -60,6 +62,7 @@ def get_default_fallback_handler_address(
             "0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4",  # v1.3.0
             "0x017062a1dE2FE6b99BE3d9d37841FeD19F573804",  # v1.3.0
             "0x2f870a80647BbC554F3a0EBD093f11B4d2a7492A",  # v1.3.0 zkSync
+            "0x33EE74C8E415D6340C6EbA84a15933C3D521A901",  # masa
         ],
     )
 
@@ -72,6 +75,7 @@ def get_proxy_factory_address(ethereum_client: EthereumClient) -> ChecksumAddres
             "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",  # v1.3.0
             "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",  # v1.3.0
             "0xDAec33641865E4651fB43181C6DB6f7232Ee91c2",  # v1.3.0 zkSync
+            "0x4FDd6B6415658f12cA4ec90F215bC2F5493B6Da5",  # masa
         ],
     )
 
@@ -84,6 +88,7 @@ def get_last_multisend_address(ethereum_client: EthereumClient) -> ChecksumAddre
             "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",  # v1.3.0
             "0x998739BFdAAdde7C933B942a68053933098f9EDa",  # v1.3.0
             "0x0dFcccB95225ffB03c6FBB2559B530C2B7C8A912",  # v1.3.0 zkSync
+            "0xE8dd28213b2C474be0eB57761bC8c771dA1e7Dc3",  # masa
         ],
     )
 
@@ -98,6 +103,7 @@ def get_last_multisend_call_only_address(
             "0x40A2aCCbd92BCA938b02010E17A5b8929b49130D",  # v1.3.0
             "0xA1dabEF33b3B82c7814B6D82A79e50F4AC44102B",  # v1.3.0
             "0xf220D3b4DFb23C4ade8C88E526C1353AbAcbC38F",  # v1.3.0 zkSync
+            "0x4f3bD90e692f5Ad0294e16361d89f22dd6C77E13",  # masa
         ],
     )
 
@@ -112,5 +118,6 @@ def get_last_sign_message_lib_address(
             "0xA65387F16B013cf2Af4605Ad8aA5ec25a2cbA3a2",  # v1.3.0
             "0x98FFBBF51bb33A056B08ddf711f289936AafF717",  # v1.3.0
             "0x357147caf9C0cCa67DfA0CF5369318d8193c8407",  # v1.3.0 zkSync
+            "0x0842F9D5B5E57528CE8cE69a3f7f90578E960D9A",  # masa
         ],
     )
